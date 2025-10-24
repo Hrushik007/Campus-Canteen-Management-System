@@ -28,4 +28,5 @@ $orders = $conn->query("SELECT o.*, c.Name as customer FROM `ORDER` o JOIN CUSTO
         </table>
     </div>
 </body>
+
 </html>
