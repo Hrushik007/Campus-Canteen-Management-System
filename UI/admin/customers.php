@@ -29,4 +29,5 @@ $customers = $conn->query("SELECT c.*, GROUP_CONCAT(cp.Phone_No) as phones FROM 
         </table>
     </div>
 </body>
+
 </html>
