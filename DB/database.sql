@@ -411,4 +411,5 @@ LEFT JOIN Shift_Staff ss ON s.Staff_ID = ss.Staff_ID
 GROUP BY s.Staff_ID, s.Name, s.Role, s.Salary
 ORDER BY s.Role, s.Name;
 
+
 SELECT '=== DATABASE SETUP COMPLETE ===' AS Status;
